@@ -139,7 +139,7 @@ function formatDate(iso: string): string {
 </script>
 
 <template>
-  <SettingsShell title="AI Connections" subtitle="Connect Claude, ChatGPT and other AI assistants to your Snappi boards via MCP.">
+  <SettingsShell title="AI Connections" eyebrow="✦ AI-powered digital intelligence" subtitle="Connect Claude, ChatGPT and other AI assistants to your Snappi boards via MCP.">
 
     <!-- ── MCP endpoint card ────────────────────────────────────────────── -->
     <section class="settings-card">

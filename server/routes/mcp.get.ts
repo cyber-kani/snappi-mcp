@@ -47,6 +47,7 @@ const INFO_HTML = `<!doctype html>
   .brandrow .name { font-family:'Geist','Inter',sans-serif; font-weight:700; font-size:17px; letter-spacing:-.01em; }
   .status { margin-left:auto; display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:var(--ok); background:rgba(0,200,117,.1); border-radius:999px; padding:4px 11px; }
   .status .dot { width:7px; height:7px; border-radius:50%; background:var(--ok); }
+  .eyebrow { font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--brand); margin:0 0 6px; }
   h1 { font-family:'Geist','Inter',sans-serif; font-size:24px; font-weight:800; letter-spacing:-.02em; margin:0 0 8px; }
   .sub { color:var(--text-soft); font-size:14px; line-height:1.6; margin:0 0 18px; }
   .chips { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
@@ -78,6 +79,7 @@ const INFO_HTML = `<!doctype html>
     <span class="name">snappi</span>
     <span class="status"><span class="dot"></span>Operational</span>
   </div>
+  <p class="eyebrow">&#10022; AI-powered digital intelligence</p>
   <h1>MCP Server</h1>
   <p class="sub">Connect Claude, ChatGPT and other AI assistants to Snappi. Once authorized, your AI can read and update your boards, tasks and bugs — scoped to exactly what your account can see. This endpoint speaks JSON-RPC over POST, so there's nothing more to see in a browser.</p>
   <div class="chips">
