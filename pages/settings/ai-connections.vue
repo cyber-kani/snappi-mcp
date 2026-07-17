@@ -146,7 +146,10 @@ function formatDate(iso: string): string {
       <div class="settings-row">
         <div class="settings-row-meta">
           <h2>MCP endpoint</h2>
-          <p>Paste this URL into any MCP-compatible AI assistant to give it access to your boards.</p>
+          <p>
+            Paste this URL into any MCP-compatible AI assistant to give it access to your boards.
+            The server is <a class="aic-gh-link" href="https://github.com/cyber-kani/snappi-mcp" target="_blank" rel="noopener">open source on GitHub</a>.
+          </p>
         </div>
         <div class="settings-row-control">
           <div class="aic-endpoint-row">
@@ -378,6 +381,14 @@ function formatDate(iso: string): string {
 
 <style scoped>
 /* ── MCP endpoint ─────────────────────────────────────────────────────── */
+.aic-gh-link {
+  color: var(--brand, #0ea5e9);
+  text-decoration: none;
+  font-weight: 500;
+}
+.aic-gh-link:hover {
+  text-decoration: underline;
+}
 .aic-endpoint-row {
   display: flex;
   align-items: center;
